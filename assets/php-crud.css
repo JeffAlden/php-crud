@@ -1,0 +1,35 @@
+th.center-text,
+td.center-text {
+    text-align: center;
+}
+
+#example td {
+    text-align: center;
+}
+
+.truncate-text {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+table#example th.center-text:last-child,
+table#example td.center-text:last-child {
+    text-align: center;
+    min-width: 100px;
+}
+
+#add_pass {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.dropdown-menu .dropdown-item {
+    text-align: center;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 5px;
+}

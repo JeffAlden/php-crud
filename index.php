@@ -11,6 +11,7 @@ require_once "config.php";
     <title>PHP_CRUD</title>
     <link rel="stylesheet" href="./assets/all.min.css">
     <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/php-crud.css">
     <!-- DataTables and Responsive DataTables CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
@@ -25,43 +26,6 @@ require_once "config.php";
     <script src="https://cdn.datatables.net/responsive/2.5.0/js/responsive.bootstrap5.min.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/sweetalert2@10'></script>
 </head>
-<style>
-    th.center-text,
-    td.center-text {
-        text-align: center;
-    }
-
-    #example td {
-        text-align: center;
-    }
-
-    .truncate-text {
-        max-width: 100px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    table#example th.center-text:last-child,
-    table#example td.center-text:last-child {
-        text-align: center;
-        min-width: 100px;
-    }
-
-    #add_pass {
-        display: block;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
-
-    .dropdown-menu .dropdown-item {
-        text-align: center;
-    }
-
-    .dropdown-menu .dropdown-item {
-        padding: 5px;
-    }
-</style>
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark bg-gradient">
